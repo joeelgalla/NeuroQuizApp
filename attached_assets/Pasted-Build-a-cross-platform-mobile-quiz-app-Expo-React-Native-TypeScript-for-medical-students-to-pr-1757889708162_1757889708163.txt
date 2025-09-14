@@ -1,0 +1,59 @@
+Build a cross-platform mobile quiz app (Expo + React Native + TypeScript) for medical students to practice neuroanatomy: myotomes, dermatomes, major peripheral nerves, and basic brain anatomy. The UX should feel like the Amino Acid Quiz app, with fast rounds and image-based multiple choice.
+
+Core requirements:
+
+Quiz flow: Prompt with a specific item (e.g., nerve root C7). Show 4–8 image options at once. The user selects one image answer. Provide immediate feedback (correct/incorrect), then move to the next item. Include a timer per question and a session timer.
+
+Content scope: Start with three topics: Dermatomes, Myotomes, Major Nerves. Make it easy to add Brain Anatomy later. Each topic should have 20–40 seed items for demo.
+
+Screens:
+
+Home (start, pick topic, settings),
+
+Topic Select (Dermatomes, Myotomes, Major Nerves),
+
+Quiz Runner (question stem, 4–8 image options grid, timer, progress),
+
+Feedback (brief explanation and highlight of correct region/movement),
+
+Results (score, accuracy, time, streaks, and a review list of missed items).
+
+Data model: Local JSON seed files for items with fields: id, topic, promptType (“nerveRoot” | “dermatome” | “myotome” | “nerve”), promptValue (e.g., “C7”), options: [{id, label, imageUri, isCorrect}], explanation (short text), tags (e.g., “upper limb”, “hand extensors”). Build a simple ContentService to load items and randomize without repeats.
+
+Logic: Randomize options per item. Ensure no duplicate items in a session. Track score, accuracy, per-question time, and streaks. Create a SpacedReview list that stores missed items locally (AsyncStorage) for later practice. Add a “Review Missed” mode that pulls from this list.
+
+UI/UX: Clean, high-contrast mobile UI with large tap targets. Use a 2x2 to 3x3 responsive grid for image options. Show progress bar and question count. Offer haptics on answer selection (Expo Haptics). Basic theme with light/dark toggle.
+
+Accessibility: Support VoiceOver/TalkBack labels for images (alt text from option.label). Ensure color contrast AA.
+
+State management & routing: Use expo-router, React Context or Zustand for app state (score, timers, preferences).
+
+Assets: Use placeholder images/URIs now and a clear assets/ structure so images can be swapped later. Provide a script or README guidance for adding real anatomy images.
+
+Testing: Add a minimal unit test for the ContentService (no repeats, correct option presence) and a utility for shuffling.
+
+Analytics: Add an interface to plug in analytics later; stub a function logEvent(name, payload) and use it on start, answer, finish.
+
+Offline-first: Bundle seed JSON locally; app must work offline. Sync is not required for MVP.
+
+Success criteria:
+
+Runs in Expo Go on iOS/Android and the web.
+
+Topic selection leads to a 10-question session with 4–8 image options per question.
+
+Immediate feedback on selection with correct highlighting and optional short explanation.
+
+Results screen shows score, accuracy, total time, and creates/updates a local “missed items” list for spaced review.
+
+Please:
+
+Scaffold the project with expo-router and TypeScript.
+
+Implement the data model, quiz logic, and all screens.
+
+Seed demo content for each topic (10–15 items each) with placeholder images.
+
+Include a README with steps to: run locally, replace images, add new items, and publish via EAS to the App Store/Play Store.
+
+After building, run the app and show a short demo path to verify all flows.”
