@@ -1,0 +1,172 @@
+[
+  {
+    "id": "d1",
+    "topic": "Dermatomes",
+    "promptType": "nerveRoot",
+    "promptValue": "C5",
+    "options": [
+      {
+        "id": "d1o1",
+        "label": "Lateral arm and forearm",
+        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=C5",
+        "isCorrect": true
+      },
+      {
+        "id": "d1o2",
+        "label": "Thumb and index finger",
+        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=C6",
+        "isCorrect": false
+      },
+      {
+        "id": "d1o3",
+        "label": "Middle finger region",
+        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=C7",
+        "isCorrect": false
+      },
+      {
+        "id": "d1o4",
+        "label": "Little finger side",
+        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=C8",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "C5 dermatome covers the lateral arm and forearm region.",
+    "tags": ["upper limb", "arm"]
+  },
+  {
+    "id": "d2",
+    "topic": "Dermatomes",
+    "promptType": "nerveRoot",
+    "promptValue": "C6",
+    "options": [
+      {
+        "id": "d2o1",
+        "label": "Lateral arm",
+        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=C5",
+        "isCorrect": false
+      },
+      {
+        "id": "d2o2",
+        "label": "Thumb and index finger",
+        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=C6",
+        "isCorrect": true
+      },
+      {
+        "id": "d2o3",
+        "label": "Middle finger",
+        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=C7",
+        "isCorrect": false
+      },
+      {
+        "id": "d2o4",
+        "label": "Little finger",
+        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=C8",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "C6 dermatome covers the thumb and index finger region.",
+    "tags": ["upper limb", "hand"]
+  },
+  {
+    "id": "d3",
+    "topic": "Dermatomes",
+    "promptType": "nerveRoot", 
+    "promptValue": "C7",
+    "options": [
+      {
+        "id": "d3o1",
+        "label": "Lateral arm",
+        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=C5",
+        "isCorrect": false
+      },
+      {
+        "id": "d3o2",
+        "label": "Thumb region",
+        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=C6",
+        "isCorrect": false
+      },
+      {
+        "id": "d3o3",
+        "label": "Middle finger region",
+        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=C7",
+        "isCorrect": true
+      },
+      {
+        "id": "d3o4",
+        "label": "Little finger side",
+        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=C8",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "C7 dermatome covers the middle finger region.",
+    "tags": ["upper limb", "hand"]
+  },
+  {
+    "id": "d4",
+    "topic": "Dermatomes",
+    "promptType": "nerveRoot",
+    "promptValue": "L4",
+    "options": [
+      {
+        "id": "d4o1",
+        "label": "Medial leg and foot",
+        "imageUri": "https://via.placeholder.com/150x150/FECA57/FFFFFF?text=L4",
+        "isCorrect": true
+      },
+      {
+        "id": "d4o2",
+        "label": "Lateral leg",
+        "imageUri": "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=L5",
+        "isCorrect": false
+      },
+      {
+        "id": "d4o3",
+        "label": "Lateral foot",
+        "imageUri": "https://via.placeholder.com/150x150/54A0FF/FFFFFF?text=S1",
+        "isCorrect": false
+      },
+      {
+        "id": "d4o4",
+        "label": "Posterior thigh",
+        "imageUri": "https://via.placeholder.com/150x150/5F27CD/FFFFFF?text=S2",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "L4 dermatome covers the medial leg and medial foot.",
+    "tags": ["lower limb", "leg"]
+  },
+  {
+    "id": "d5",
+    "topic": "Dermatomes",
+    "promptType": "nerveRoot",
+    "promptValue": "L5",
+    "options": [
+      {
+        "id": "d5o1",
+        "label": "Medial leg",
+        "imageUri": "https://via.placeholder.com/150x150/FECA57/FFFFFF?text=L4",
+        "isCorrect": false
+      },
+      {
+        "id": "d5o2",
+        "label": "Lateral leg and dorsal foot",
+        "imageUri": "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=L5",
+        "isCorrect": true
+      },
+      {
+        "id": "d5o3",
+        "label": "Lateral foot",
+        "imageUri": "https://via.placeholder.com/150x150/54A0FF/FFFFFF?text=S1",
+        "isCorrect": false
+      },
+      {
+        "id": "d5o4",
+        "label": "Posterior leg",
+        "imageUri": "https://via.placeholder.com/150x150/5F27CD/FFFFFF?text=S2",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "L5 dermatome covers the lateral leg and dorsum of foot.",
+    "tags": ["lower limb", "leg", "foot"]
+  }
+]

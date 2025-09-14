@@ -1,0 +1,172 @@
+[
+  {
+    "id": "m1",
+    "topic": "Myotomes",
+    "promptType": "nerveRoot",
+    "promptValue": "C5",
+    "options": [
+      {
+        "id": "m1o1",
+        "label": "Shoulder abduction",
+        "imageUri": "https://via.placeholder.com/150x150/E17055/FFFFFF?text=C5+ABD",
+        "isCorrect": true
+      },
+      {
+        "id": "m1o2",
+        "label": "Elbow flexion",
+        "imageUri": "https://via.placeholder.com/150x150/F8B500/FFFFFF?text=C6+FLEX",
+        "isCorrect": false
+      },
+      {
+        "id": "m1o3",
+        "label": "Elbow extension",
+        "imageUri": "https://via.placeholder.com/150x150/6C7B7F/FFFFFF?text=C7+EXT",
+        "isCorrect": false
+      },
+      {
+        "id": "m1o4",
+        "label": "Finger flexion",
+        "imageUri": "https://via.placeholder.com/150x150/00D2D3/FFFFFF?text=C8+FLEX",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "C5 myotome controls shoulder abduction (deltoid muscle).",
+    "tags": ["upper limb", "shoulder"]
+  },
+  {
+    "id": "m2",
+    "topic": "Myotomes",
+    "promptType": "nerveRoot",
+    "promptValue": "C6",
+    "options": [
+      {
+        "id": "m2o1",
+        "label": "Shoulder abduction",
+        "imageUri": "https://via.placeholder.com/150x150/E17055/FFFFFF?text=C5+ABD",
+        "isCorrect": false
+      },
+      {
+        "id": "m2o2",
+        "label": "Elbow flexion",
+        "imageUri": "https://via.placeholder.com/150x150/F8B500/FFFFFF?text=C6+FLEX",
+        "isCorrect": true
+      },
+      {
+        "id": "m2o3",
+        "label": "Elbow extension",
+        "imageUri": "https://via.placeholder.com/150x150/6C7B7F/FFFFFF?text=C7+EXT",
+        "isCorrect": false
+      },
+      {
+        "id": "m2o4",
+        "label": "Finger flexion",
+        "imageUri": "https://via.placeholder.com/150x150/00D2D3/FFFFFF?text=C8+FLEX",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "C6 myotome controls elbow flexion (biceps muscle).",
+    "tags": ["upper limb", "elbow"]
+  },
+  {
+    "id": "m3",
+    "topic": "Myotomes",
+    "promptType": "nerveRoot",
+    "promptValue": "L4",
+    "options": [
+      {
+        "id": "m3o1",
+        "label": "Knee extension",
+        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=L4+EXT",
+        "isCorrect": true
+      },
+      {
+        "id": "m3o2",
+        "label": "Ankle dorsiflexion",
+        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=L5+DORS",
+        "isCorrect": false
+      },
+      {
+        "id": "m3o3",
+        "label": "Ankle plantarflexion",
+        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=S1+PLAN",
+        "isCorrect": false
+      },
+      {
+        "id": "m3o4",
+        "label": "Hip flexion",
+        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=L2+HIP",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "L4 myotome controls knee extension (quadriceps muscle).",
+    "tags": ["lower limb", "knee"]
+  },
+  {
+    "id": "m4",
+    "topic": "Myotomes",
+    "promptType": "nerveRoot",
+    "promptValue": "L5",
+    "options": [
+      {
+        "id": "m4o1",
+        "label": "Knee extension",
+        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=L4+EXT",
+        "isCorrect": false
+      },
+      {
+        "id": "m4o2",
+        "label": "Ankle dorsiflexion",
+        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=L5+DORS",
+        "isCorrect": true
+      },
+      {
+        "id": "m4o3",
+        "label": "Ankle plantarflexion",
+        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=S1+PLAN",
+        "isCorrect": false
+      },
+      {
+        "id": "m4o4",
+        "label": "Hip flexion",
+        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=L2+HIP",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "L5 myotome controls ankle dorsiflexion (tibialis anterior).",
+    "tags": ["lower limb", "ankle"]
+  },
+  {
+    "id": "m5",
+    "topic": "Myotomes",
+    "promptType": "nerveRoot",
+    "promptValue": "S1",
+    "options": [
+      {
+        "id": "m5o1",
+        "label": "Knee extension",
+        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=L4+EXT",
+        "isCorrect": false
+      },
+      {
+        "id": "m5o2",
+        "label": "Ankle dorsiflexion",
+        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=L5+DORS",
+        "isCorrect": false
+      },
+      {
+        "id": "m5o3",
+        "label": "Ankle plantarflexion",
+        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=S1+PLAN",
+        "isCorrect": true
+      },
+      {
+        "id": "m5o4",
+        "label": "Hip flexion",
+        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=L2+HIP",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "S1 myotome controls ankle plantarflexion (gastrocnemius and soleus).",
+    "tags": ["lower limb", "ankle"]
+  }
+]
