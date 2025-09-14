@@ -9,7 +9,6 @@ export default function RootLayout() {
         <Stack screenOptions={{ headerShown: false }}>
           <Stack.Screen name="index" options={{ headerShown: false }} />
           <Stack.Screen name="quiz/[topic]" options={{ headerShown: false }} />
-          <Stack.Screen name="feedback" options={{ headerShown: false }} />
           <Stack.Screen name="results" options={{ headerShown: false }} />
         </Stack>
       </ThemeProvider>

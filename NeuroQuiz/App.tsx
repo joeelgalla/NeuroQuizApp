@@ -1,12 +1,3 @@
-import 'react-native-gesture-handler';
-import { Slot } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-
-export default function RootLayout() {
-  return (
-    <>
-      <StatusBar style="auto" />
-      <Slot />
-    </>
-  );
+export default function App() {
+  return null;
 }
