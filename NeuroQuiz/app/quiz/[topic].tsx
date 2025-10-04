@@ -168,15 +168,9 @@ export default function QuizScreen() {
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
 
-  if (!session || !currentItem) {
-    return (
-      <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
-        <Text style={[styles.loadingText, { color: colors.text }]}>Loading quiz...</Text>
-      </SafeAreaView>
-    );
-  }
-
-  const progress = ((session.currentIndex + 1) / session.items.length) * 100;
+  const progress = session && currentItem 
+    ? ((session.currentIndex + 1) / session.items.length) * 100 
+    : 0;
 
   const styles = StyleSheet.create({
     container: {
@@ -304,6 +298,14 @@ export default function QuizScreen() {
       lineHeight: 24,
     },
   });
+
+  if (!session || !currentItem) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <Text style={styles.loadingText}>Loading quiz...</Text>
+      </SafeAreaView>
+    );
+  }
 
   return (
     <SafeAreaView style={styles.container}>
