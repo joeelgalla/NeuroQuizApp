@@ -14,6 +14,7 @@ import * as Haptics from 'expo-haptics';
 import { useTheme } from '../../context/ThemeContext';
 import { ContentService } from '../../services/ContentService';
 import { QuizItem, QuizAnswer, QuizSession } from '../../types';
+import { imageAssets } from '../../assets/imageAssets';
 
 const { width } = Dimensions.get('window');
 
@@ -347,6 +348,10 @@ export default function QuizScreen() {
               cardStyle.push(styles.optionCardSelected);
             }
 
+            const imageSource = imageAssets[option.imageUri as keyof typeof imageAssets] 
+              ? imageAssets[option.imageUri as keyof typeof imageAssets]
+              : { uri: option.imageUri };
+
             return (
               <TouchableOpacity
                 key={option.id}
@@ -355,7 +360,7 @@ export default function QuizScreen() {
                 disabled={showFeedback}
                 activeOpacity={0.8}
               >
-                <Image source={{ uri: option.imageUri }} style={styles.optionImage} />
+                <Image source={imageSource} style={styles.optionImage} />
                 <Text style={styles.optionLabel}>{option.label}</Text>
               </TouchableOpacity>
             );

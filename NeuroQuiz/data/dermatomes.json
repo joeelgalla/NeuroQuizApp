@@ -8,25 +8,25 @@
       {
         "id": "d1o1",
         "label": "Lateral arm and forearm",
-        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=C5",
+        "imageUri": "medical_arm_1",
         "isCorrect": true
       },
       {
         "id": "d1o2",
         "label": "Thumb and index finger",
-        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=C6",
+        "imageUri": "hand_nerve_1",
         "isCorrect": false
       },
       {
         "id": "d1o3",
         "label": "Middle finger region",
-        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=C7",
+        "imageUri": "hand_nerve_2",
         "isCorrect": false
       },
       {
         "id": "d1o4",
         "label": "Little finger side",
-        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=C8",
+        "imageUri": "hand_nerve_3",
         "isCorrect": false
       }
     ],
@@ -42,25 +42,25 @@
       {
         "id": "d2o1",
         "label": "Lateral arm",
-        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=C5",
+        "imageUri": "medical_arm_2",
         "isCorrect": false
       },
       {
         "id": "d2o2",
         "label": "Thumb and index finger",
-        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=C6",
+        "imageUri": "hand_nerve_1",
         "isCorrect": true
       },
       {
         "id": "d2o3",
         "label": "Middle finger",
-        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=C7",
+        "imageUri": "hand_nerve_2",
         "isCorrect": false
       },
       {
         "id": "d2o4",
         "label": "Little finger",
-        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=C8",
+        "imageUri": "hand_nerve_4",
         "isCorrect": false
       }
     ],
@@ -76,25 +76,25 @@
       {
         "id": "d3o1",
         "label": "Lateral arm",
-        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=C5",
+        "imageUri": "medical_arm_3",
         "isCorrect": false
       },
       {
         "id": "d3o2",
         "label": "Thumb region",
-        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=C6",
+        "imageUri": "hand_nerve_1",
         "isCorrect": false
       },
       {
         "id": "d3o3",
         "label": "Middle finger region",
-        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=C7",
+        "imageUri": "hand_nerve_2",
         "isCorrect": true
       },
       {
         "id": "d3o4",
         "label": "Little finger side",
-        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=C8",
+        "imageUri": "hand_nerve_3",
         "isCorrect": false
       }
     ],
@@ -110,25 +110,25 @@
       {
         "id": "d4o1",
         "label": "Medial leg and foot",
-        "imageUri": "https://via.placeholder.com/150x150/FECA57/FFFFFF?text=L4",
+        "imageUri": "medical_arm_4",
         "isCorrect": true
       },
       {
         "id": "d4o2",
         "label": "Lateral leg",
-        "imageUri": "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=L5",
+        "imageUri": "hand_nerve_4",
         "isCorrect": false
       },
       {
         "id": "d4o3",
         "label": "Lateral foot",
-        "imageUri": "https://via.placeholder.com/150x150/54A0FF/FFFFFF?text=S1",
+        "imageUri": "medical_arm_2",
         "isCorrect": false
       },
       {
         "id": "d4o4",
         "label": "Posterior thigh",
-        "imageUri": "https://via.placeholder.com/150x150/5F27CD/FFFFFF?text=S2",
+        "imageUri": "medical_arm_3",
         "isCorrect": false
       }
     ],
@@ -144,25 +144,25 @@
       {
         "id": "d5o1",
         "label": "Medial leg",
-        "imageUri": "https://via.placeholder.com/150x150/FECA57/FFFFFF?text=L4",
+        "imageUri": "medical_arm_1",
         "isCorrect": false
       },
       {
         "id": "d5o2",
         "label": "Lateral leg and dorsal foot",
-        "imageUri": "https://via.placeholder.com/150x150/FF9FF3/FFFFFF?text=L5",
+        "imageUri": "hand_nerve_3",
         "isCorrect": true
       },
       {
         "id": "d5o3",
         "label": "Lateral foot",
-        "imageUri": "https://via.placeholder.com/150x150/54A0FF/FFFFFF?text=S1",
+        "imageUri": "hand_nerve_4",
         "isCorrect": false
       },
       {
         "id": "d5o4",
         "label": "Posterior leg",
-        "imageUri": "https://via.placeholder.com/150x150/5F27CD/FFFFFF?text=S2",
+        "imageUri": "medical_arm_4",
         "isCorrect": false
       }
     ],

@@ -8,25 +8,25 @@
       {
         "id": "n1o1",
         "label": "Thenar eminence weakness",
-        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=MEDIAN",
+        "imageUri": "hand_nerve_1",
         "isCorrect": true
       },
       {
         "id": "n1o2",
         "label": "Wrist drop",
-        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=RADIAL",
+        "imageUri": "elbow_1",
         "isCorrect": false
       },
       {
         "id": "n1o3",
         "label": "Claw hand deformity",
-        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=ULNAR",
+        "imageUri": "hand_nerve_3",
         "isCorrect": false
       },
       {
         "id": "n1o4",
         "label": "Foot drop",
-        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=PERONEAL",
+        "imageUri": "medical_arm_4",
         "isCorrect": false
       }
     ],
@@ -42,29 +42,29 @@
       {
         "id": "n2o1",
         "label": "Thenar weakness",
-        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=MEDIAN",
+        "imageUri": "hand_nerve_2",
         "isCorrect": false
       },
       {
         "id": "n2o2",
         "label": "Wrist drop",
-        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=RADIAL",
+        "imageUri": "elbow_1",
         "isCorrect": true
       },
       {
         "id": "n2o3",
         "label": "Claw hand",
-        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=ULNAR",
+        "imageUri": "hand_nerve_4",
         "isCorrect": false
       },
       {
         "id": "n2o4",
-        "label": "Foot drop",
-        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=PERONEAL",
+        "label": "Winged scapula",
+        "imageUri": "shoulder_1",
         "isCorrect": false
       }
     ],
-    "explanation": "Radial nerve palsy causes wrist drop due to weakness of wrist extensors.",
+    "explanation": "Radial nerve palsy causes wrist drop due to extensor weakness.",
     "tags": ["upper limb", "wrist"]
   },
   {
@@ -76,29 +76,29 @@
       {
         "id": "n3o1",
         "label": "Thenar weakness",
-        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=MEDIAN",
+        "imageUri": "hand_nerve_1",
         "isCorrect": false
       },
       {
         "id": "n3o2",
         "label": "Wrist drop",
-        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=RADIAL",
+        "imageUri": "elbow_2",
         "isCorrect": false
       },
       {
         "id": "n3o3",
         "label": "Claw hand deformity",
-        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=ULNAR",
+        "imageUri": "hand_nerve_3",
         "isCorrect": true
       },
       {
         "id": "n3o4",
         "label": "Foot drop",
-        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=PERONEAL",
+        "imageUri": "medical_arm_3",
         "isCorrect": false
       }
     ],
-    "explanation": "Ulnar nerve palsy causes claw hand deformity and weakness of intrinsic hand muscles.",
+    "explanation": "Ulnar nerve palsy causes claw hand deformity affecting the 4th and 5th fingers.",
     "tags": ["upper limb", "hand"]
   },
   {
@@ -109,64 +109,64 @@
     "options": [
       {
         "id": "n4o1",
-        "label": "Thenar weakness",
-        "imageUri": "https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=MEDIAN",
+        "label": "Wrist drop",
+        "imageUri": "elbow_3",
         "isCorrect": false
       },
       {
         "id": "n4o2",
-        "label": "Wrist drop",
-        "imageUri": "https://via.placeholder.com/150x150/4ECDC4/FFFFFF?text=RADIAL",
-        "isCorrect": false
+        "label": "Foot drop",
+        "imageUri": "medical_arm_2",
+        "isCorrect": true
       },
       {
         "id": "n4o3",
         "label": "Claw hand",
-        "imageUri": "https://via.placeholder.com/150x150/45B7D1/FFFFFF?text=ULNAR",
+        "imageUri": "hand_nerve_4",
         "isCorrect": false
       },
       {
         "id": "n4o4",
-        "label": "Foot drop",
-        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=PERONEAL",
-        "isCorrect": true
+        "label": "Trendelenburg gait",
+        "imageUri": "shoulder_3",
+        "isCorrect": false
       }
     ],
-    "explanation": "Common peroneal nerve palsy causes foot drop due to weakness of dorsiflexors.",
+    "explanation": "Common peroneal nerve palsy causes foot drop due to dorsiflexor weakness.",
     "tags": ["lower limb", "foot"]
   },
   {
     "id": "n5",
     "topic": "Major Nerves",
     "promptType": "nerve",
-    "promptValue": "Sciatic nerve",
+    "promptValue": "Axillary nerve",
     "options": [
       {
         "id": "n5o1",
-        "label": "Complete leg paralysis",
-        "imageUri": "https://via.placeholder.com/150x150/FF9500/FFFFFF?text=SCIATIC",
+        "label": "Shoulder abduction weakness",
+        "imageUri": "shoulder_2",
         "isCorrect": true
       },
       {
         "id": "n5o2",
-        "label": "Foot drop only",
-        "imageUri": "https://via.placeholder.com/150x150/96CEB4/FFFFFF?text=PERONEAL",
+        "label": "Elbow flexion weakness",
+        "imageUri": "elbow_4",
         "isCorrect": false
       },
       {
         "id": "n5o3",
-        "label": "Knee extension weakness",
-        "imageUri": "https://via.placeholder.com/150x150/A55EEA/FFFFFF?text=FEMORAL",
+        "label": "Wrist drop",
+        "imageUri": "elbow_1",
         "isCorrect": false
       },
       {
         "id": "n5o4",
-        "label": "Hip adduction weakness",
-        "imageUri": "https://via.placeholder.com/150x150/26de81/FFFFFF?text=OBTURATOR",
+        "label": "Finger weakness",
+        "imageUri": "hand_nerve_2",
         "isCorrect": false
       }
     ],
-    "explanation": "Complete sciatic nerve palsy causes paralysis of all muscles below the knee and hamstrings.",
-    "tags": ["lower limb", "leg"]
+    "explanation": "Axillary nerve palsy causes deltoid weakness and impaired shoulder abduction.",
+    "tags": ["upper limb", "shoulder"]
   }
 ]
